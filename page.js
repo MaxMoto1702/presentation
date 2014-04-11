@@ -2,7 +2,7 @@ $(function() {
     var client = new WindowsAzure.MobileServiceClient('https://maxim-serebryanskiy.azure-mobile.net/', 'FHTsPHoDXwpmYlzlUlkipnMXGhKCKj54'),
         todoItemTable = client.getTable('todoitem');
 
-    // Read current data and rebuild UI.
+    // ѕрочитать текущие данные и перестроить UI.
     // If you plan to generate complex UIs like this, consider using a JavaScript templating library.
     function refreshTodoItems() {
         var query = todoItemTable.where({ complete: false });
