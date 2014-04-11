@@ -1,4 +1,5 @@
-﻿<%@ page contentType="text/ht ml; encoding=utf-8"%>
+﻿<!DOCTYPE html>
+<%@ page contentType="text/ht ml; encoding=utf-8"%>
 <%@ page import="java.util.*" %>
 <html>
  
