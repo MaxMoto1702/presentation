@@ -1,0 +1,333 @@
+/* Label Styles */
+/**
+* @package Livetex Label
+* @version 1.0
+* @author andrey.g@livetex.ru Andrey Garbuzov
+* @company LiveTex //livetex.ru Сервисы для коммуникации с посетителями сайта
+*/
+/**
+ * Cobrowse
+ */
+.lt-shadow-field {
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    position: absolute;
+    z-index: 10000;
+}
+.lt-cobrowse-close {
+    position: absolute;
+    z-index: 10001;
+    width: 26px;
+    height: 26px;
+    background: url(/img/cobrowse-close.png) no-repeat 0 0;
+    cursor: pointer;
+    right: 5px;
+    top: 5px;
+}
+.lt-invite {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    z-index: 9999;
+    padding: 0;
+    margin: 0;
+}
+.lt-invite.lt-hidden {
+    display: none;
+}
+.lt-invite .lt-label {
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat no-repeat;
+}
+.lt-invite .lt-label-bg {
+    display: none;
+    background-repeat: no-repeat;
+}
+.lt-invite .lt-content {
+    width: 310px;
+    height: 334px;
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transition: visibility 0s 0.6s linear;
+    transition: visibility 0s 0.6s linear;
+}
+.lt-content .lt-op-info {
+    height: 90px;
+    padding: 0;
+    margin: 0;
+}
+.lt-content .lt-operator {
+    float: left;
+    width: 68px;
+    height: 78px;
+    background: url(/img/label/photo-bg.png) no-repeat left top;
+    margin: 13px 14px 0 14px;
+    padding: 0;
+}
+.lt-content .lt-operator img {
+    width: 60px;
+    height: 70px;
+    margin: 4px 0 0 4px;
+    padding: 0;
+}
+.lt-content .lt-title {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    overflow: hidden;
+}
+.lt-content .lt-name {
+    float: left;
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.4em;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 8px 0 0 0;
+    padding: 0;
+    width: 210px;
+    overflow: hidden;
+    white-space: normal;
+}
+.lt-content .lt-depart {
+    clear: left;
+    float: left;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.4em;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    white-space: normal;
+}
+.lt-content .lt-greet {
+    width: 282px;
+    height: 102px;
+    float: left;
+    text-align: left;
+    clear: both;
+    margin: -10px 0 10px 14px;
+    padding: 0;
+    overflow: hidden;
+    background: url(/img/label/say.png) no-repeat left top;
+}
+.lt-content .lt-greet p {
+    display: block;
+    height: 66px;
+    margin: 27px 10px 10px 10px;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    line-height: 16px;
+    color: #333;
+    overflow: hidden;
+    white-space: normal;
+}
+.lt-content .lt-textarea {
+    width: 282px;
+    height: 75px;
+    padding: 0;
+    margin: 0 0 0 14px;
+    position: relative;
+    clear: left;
+    text-align: left;
+    background: url(/img/label/textarea.png) 0 0 no-repeat;
+}
+.lt-content .lt-textarea textarea {
+    width: 258px;
+    height: 54px;
+    position: absolute;
+    padding: 0;
+    margin: 10px;
+    overflow: hidden;
+    border: 0;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    color: #333;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    box-shadow: none;
+}
+.lt-content .lt-cancel {
+    margin: 23px 0 0 75px;
+    padding: 0;
+    display: block;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    text-decoration: underline;
+    color: #fff;
+    width: 91px;
+    cursor: pointer;
+    float: left;
+}
+.lt-content .lt-send {
+    display: block;
+    margin: 13px 0 0 13px;
+    padding: 0;
+    width: 116px;
+    height: 38px;
+    float: left;
+    cursor: pointer;
+    background: url(/img/label/button.png) 0 0 no-repeat transparent;
+    outline: none;
+    border: none;
+    border-collapse: collapse;
+}
+.lt-content .lt-send:hover {
+    background-position: left center;
+}
+.lt-content .lt-send:active {
+    position: relative;
+    top: 1px;
+    background-position: left bottom;
+}
+.lt-content .lt-footer {
+  display: none;
+}
+.lt-invite iframe {
+    display: none;
+}
+.lt-frame iframe {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    display: block;
+    border: none;
+}
+.lt-frame .lt-invite-message {
+    display: none;
+}
+.lt-lead .lt-label-bg {
+    display: block;
+    background-repeat: no-repeat;
+}
+.lt-lead .lt-content {
+    width: 360px;
+    height: 540px;
+}
+.lt-lead .lt-invite-message {
+    display: none;
+}
+
+
+.lt-active .lt-content {
+  visibility: visible;
+  -webkit-transition: visibility 0s 0s linear;
+  transition: visibility 0s 0s linear;
+}
+
+
+ 
+    /* Большой ярлык */
+    .lt-invite .lt-logo {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        background: url(/img/label/logo-anim.png) 0 0 no-repeat;
+        bottom: 9px;
+        left: 7px;
+        z-index: 3;
+        margin: 0;
+        padding: 0;
+    }
+    .lt-offline .lt-logo, .lt-lead .lt-logo {
+        background: url(/img/label/livetex-logo-blue.png) 0 0 no-repeat;
+        animation: none;
+        -webkit-animation: none;
+    }
+        
+     
+    /********************* LEFT ********************/
+    .lt-invite {
+        width: 40px;
+        height: 178px;
+        left: 0;
+        top: 200px;       
+    }
+    .lt-animate {
+        -webkit-transition: width 0.6s cubic-bezier(0, 1, .64, 1), height 0s 0.6s linear;
+        transition: width 0.6s cubic-bezier(0, 1, .64, 1), height 0s 0.6s linear; 
+    }
+    .lt-label {
+        top: 0;
+        right: 2px;
+        width: 40px;
+        height: 178px;
+        background: url(/img/label/blue/left/online.png) no-repeat left top;     
+    }
+    .lt-active {
+        width: 346px;
+        height: 334px;
+        -webkit-transition: width 0.6s cubic-bezier(0, 1, .64, 1), height 0s 0s linear;
+        transition: width 0.6s cubic-bezier(0, 1, .64, 1), height 0s 0s linear;
+    }
+    .lt-logo {
+        bottom: 10px;
+        left: 7px;
+    }
+    .lt-content {
+        top: 0;
+        right: 38px;
+        background: url(/img/label/blue/left/background.png) no-repeat right bottom; 
+    }
+    .lt-offline .lt-label{
+        background: url(/img/label/gray/left/offline.png) no-repeat right top;
+    }
+    .lt-offline .lt-content {
+        background: url(/img/label/gray/left/background.png) no-repeat right bottom;
+    }
+    .lt-lead .lt-label {
+        padding-bottom: 9px;
+        width: 39px;
+        height: auto;
+        background: url(/img/label/blue/left/lead-big-bottom.png) no-repeat right bottom;
+    }
+    .lt-lead .lt-label-bg {
+        padding-top: 10px;
+        height: auto;
+        padding-bottom: 28px;
+        background: url(/img/label/blue/left/lead-big-top.png) no-repeat right top;
+    }
+    .lt-lead .lt-logo {
+        position: absolute;
+        left: 7px;
+        bottom: 9px;
+    }
+    .lt-lead {
+        margin: 0;
+        padding: 0;
+        width: 40px;
+        height: 164px;
+    }
+    .lt-lead .lt-content {
+        background: url(/img/label/blue/left/background.png) no-repeat right bottom;
+    }
+    .lt-lead .lt-text {
+        background: url(/img/lead/vertical/big/0.png) no-repeat left top;
+        width: 40px;
+        height: 117px;     
+    }
+    .lt-lead.lt-active {
+        width: 398px;
+        height: 540px;
+    }    
+    
+    
+/* Calls */
+ /*Custom CSS */
+
+

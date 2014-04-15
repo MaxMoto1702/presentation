@@ -1,0 +1,158 @@
+/** Livetex Buttons **/
+.lt-button {
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    font-family: Arial,sans-serif;
+    /* ie 7*/
+    *display: inline;
+    *zoom:1;
+}
+.lt-button .lt-title {
+    font-family: Arial, Helvetica, sans-serif;        
+    font-weight: bold;       
+        color: #fff;
+    text-shadow: 0 1px #444;
+        
+    overflow: hidden;
+}
+.lt-button .lt-subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    line-height: 1.2em;
+    white-space: nowrap;
+        color: #fff;
+    text-shadow: 0 1px #444;
+        
+    overflow: hidden;
+}
+
+/* Big button */
+#liveTexButton_1045 {        
+    width: 223px;
+    height: 100px;
+    }
+#liveTexButton_1045.lt-online { 
+    background: url('/img/big/blue.png') no-repeat left top;
+}
+#liveTexButton_1045.lt-offline {
+    background: url('/img/big//offline.png') no-repeat left top;
+}
+#liveTexButton_1045 .lt-image {
+    width: 68px;
+    height: 79px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background: url(/img/border-big.png) left top no-repeat;
+    overflow: hidden;
+    float: left;
+    text-align: left;
+    }
+#liveTexButton_1045 .lt-image img {
+    width: 60px;
+    height: 70px; 
+    margin-left: 4px;
+    margin-top: 5px;
+}
+#liveTexButton_1045 .lt-title {    
+        font-size: 14px;
+    text-align: left;
+    margin-top: 32px;
+        overflow: hidden;
+}
+#liveTexButton_1045 .lt-subtitle {
+        text-align: left;
+    }
+.lt-site .lt-title {
+    margin-top: 60px;
+}
+
+#liveTexButton_1045.lt-offline .lt-title,
+#liveTexButton_1045.lt-offline .lt-subtitle{
+    color: #717171;
+    text-shadow: 0 1px #fff;
+}
+/* Small Button*/
+#liveTexButton_2641 {      
+    width: 146px;
+    height: 50px;
+    }
+#liveTexButton_2641.lt-online {
+    background: url('/img/small/blue.png') no-repeat left top;
+}
+#liveTexButton_2641.lt-offline {
+    background: url('/img/small/offline.png') no-repeat left top;
+}
+#liveTexButton_2641 .lt-image {
+    display: none;
+}
+#liveTexButton_2641 .lt-title {
+    text-align: center;        
+        font-size: 14px;
+    margin-top: 7px;
+    line-height: 1.4em;
+    white-space: nowrap;
+        overflow: hidden;
+}
+#liveTexButton_2641 .lt-subtitle {
+    text-align: center;
+}
+
+
+#liveTexButton_2641.lt-offline .lt-title,
+#liveTexButton_2641.lt-offline .lt-subtitle{
+    color: #717171;
+    text-shadow: 0 1px #fff;
+}
+/* Custom Styles */
+#liveTexButton_2643.lt-online {
+    background: url('/') no-repeat left top;
+    width: px;
+    height: px;
+}
+#liveTexButton_2643.lt-offline {
+    background: url('/')  no-repeat left top;
+    width: px;
+    height: px;
+}
+#liveTexButton_2643 > div {
+    display: none;
+}
+
+/* Small Button*/
+#liveTexButton_2644 {      
+    width: 146px;
+    height: 50px;
+    }
+#liveTexButton_2644.lt-online {
+    background: url('/img/small/blue.png') no-repeat left top;
+}
+#liveTexButton_2644.lt-offline {
+    background: url('/img/small/offline.png') no-repeat left top;
+}
+#liveTexButton_2644 .lt-image {
+    display: none;
+}
+#liveTexButton_2644 .lt-title {
+    text-align: center;        
+        font-size: 14px;
+    margin-top: 7px;
+    line-height: 1.4em;
+    white-space: nowrap;
+        overflow: hidden;
+}
+#liveTexButton_2644 .lt-subtitle {
+    text-align: center;
+}
+
+
+#liveTexButton_2644.lt-offline .lt-title,
+#liveTexButton_2644.lt-offline .lt-subtitle{
+    color: #717171;
+    text-shadow: 0 1px #fff;
+}
+
